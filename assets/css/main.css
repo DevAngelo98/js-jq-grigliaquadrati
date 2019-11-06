@@ -13,6 +13,14 @@
   border: 1px solid black;
 }
 
+.row > .col:hover {
+  cursor: pointer;
+}
+
+.nohover {
+  pointer-events: none;
+}
+
 /* .rosso {
   background-color: red;
 }
