@@ -1,0 +1,24 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  height: 12%;
+}
+
+.row > .col {
+  border: 1px solid black;
+}
+
+.rosso {
+  background-color: red;
+}
+
+.col:not(.rosso) {
+  background-color: green;
+}
+
+
