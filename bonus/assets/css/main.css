@@ -1,0 +1,58 @@
+.container-fluid {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: black;
+  padding-bottom: 10px;
+}
+
+p {
+  color: white;
+  font-size:22px;
+}
+
+.punteggio{
+  justify-content: center;
+}
+
+.valori {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.row {
+  height: 10%;
+  min-width:50%;
+}
+
+.row > .col {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.row > .col:hover {
+  cursor: pointer;
+}
+
+.nohover {
+  pointer-events: none;
+}
+
+.rosso {
+  background-color: red;
+}
+
+.verde {
+  background-color: green;
+} 
+
+p:first-child span {
+  color: red;
+}
+p:last-child span {
+  color: green;
+}
